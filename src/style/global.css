@@ -50,6 +50,8 @@ body {
 .login-side-left > button {
   width: 100%;
   text-align: center;
+  cursor: pointer;
+  transition: all 350ms ease-in-out;
   border: none;
   padding: 0.8rem;
   font-size: 1.1rem;
@@ -57,6 +59,10 @@ body {
   border-radius: 8px;
   color: #efefef;
   background: #05976a;
+}
+
+.login-side-left > button:hover {
+  background: #047553;
 }
 
 .login-side-left ul {
